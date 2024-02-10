@@ -1,0 +1,27 @@
+@media (max-width:500px){
+    body{
+        /* background-color: red; */
+    }
+    .searchbar{
+        display: none;
+    }
+    .cartmain span{
+        display: none;
+    }
+    .seller{
+        display: none;
+    }
+
+    #menu{
+        display: block;
+    }
+    #meedisearch{
+        /* display: block; */
+    }
+}
+
+@media (min-width:500px){
+    #main{
+        display: none;
+    }
+}
